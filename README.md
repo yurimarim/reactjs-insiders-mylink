@@ -1,6 +1,17 @@
-React
-React Router Dom
-React Icons
+## Sobre o projeto 
+
+Projeto MyLink desenvolvido durante a Semana ReactJS ministrada pelo SujeitoProgramador com objetivo de fixar e estruturar conhecimentos utilizando React.
+
+## Tecnologias Utilizadas
+
+- React
+- React Router Dom
+- React Icons
+- Dotenv (WIP)
+
+## Rodar projeto
+
+- Em breve...
 
 # Getting Started with Create React App
 
