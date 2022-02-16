@@ -1,0 +1,46 @@
+.header-container {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icons {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+}
+
+.icons:hover {
+  animation: buttonEffect 0.8s infinite;
+}
+
+.links-button {
+  border: none;
+  height: 46px;
+  border-radius: 4px;
+  margin: 0 20px 0 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #26427e;
+}
+
+.links-button:hover {
+  animation: buttonEffect 0.8s infinite;
+}
+
+@keyframes buttonEffect {
+  to {
+    transform: scale(1.15)
+  }
+  from {
+    transform: scale(1.05)
+  }
+}
