@@ -1,4 +1,4 @@
-.container {
+.container-page-error {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -7,17 +7,17 @@
   align-items: center;
 }
 
-.container img {
+.container-page-error img {
   width: 500px;
 
   animation: animationShake 1s;
 }
 
-.container h4 {
+.container-page-error h4 {
   margin-top: 20px;
 }
 
-.container button {
+.container-page-error button {
   border: none;
   width: 120px;
   height: 46px;

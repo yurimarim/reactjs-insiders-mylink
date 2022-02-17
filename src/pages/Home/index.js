@@ -1,8 +1,17 @@
+import React, { useState } from 'react'
 import './home.css'
 import { FiLink } from 'react-icons/fi'
 import { Header } from '../../components/Header'
+import { ModalItem } from '../../components/ModalItem'
 
-export function Home() {
+export function Home(props) {
+  const [link, setLink] = useState('')
+  const [showModal, setShowModal] = useState(false)
+
+  function handleShortLink() {
+    setShowModal(true)
+  }
+
   return (
     <>
       <Header />
@@ -16,12 +25,18 @@ export function Home() {
         <div className="area-input">
           <div>
             <FiLink size={24} color="#fff" />
-            <input placeholder="Cole seu link aqui" />
+            <input
+              placeholder="Cole seu link aqui"
+              value={link}
+              onChange={e => setLink(e.target.value)}
+            />
           </div>
 
-          <button>Gerar Link</button>
+          <button onClick={handleShortLink}>Gerar Link</button>
         </div>
       </div>
+
+      {showModal && <ModalItem />}
     </>
   )
 }
