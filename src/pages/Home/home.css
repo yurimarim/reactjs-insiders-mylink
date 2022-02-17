@@ -93,6 +93,7 @@ input::placeholder {
   transition: 1s;
 }
 
+/* Animations */
 @keyframes buttonEffect {
   to {
     transform: scale(1.05);
@@ -100,6 +101,27 @@ input::placeholder {
   from { 
     transform: scale(1.04);
   }  
+}
+
+
+/* Media Queries */ 
+@media (max-width: 1500px) {
+  .logo img {
+    width: 95px;
+    height: 95px;
+  }
+
+  .logo h1 {
+    font-size: 40px;
+  }
+
+  .logo span {
+    font-size: 16px;
+  }
+  
+  .area-input {
+    width: 60%
+  }
 }
 
 @media (max-width: 615px) {

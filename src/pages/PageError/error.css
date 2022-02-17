@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  width: 500px;
+
+  animation: animationShake 1s;
+}
+
+.container h4 {
+  margin-top: 20px;
+}
+
+.container button {
+  border: none;
+  width: 120px;
+  height: 46px;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  background: #fff;
+  color: #26427e;
+
+  animation: buttonEffect 1.5s infinite;
+}
+
+/* Animations */
+@keyframes buttonEffect {
+  to {
+    transform: scale(1.15)
+  }
+  from {
+    transform: scale(1.05)
+  }
+}
+
+@keyframes animationShake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0)
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0)
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0)
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0)
+  }
+}
+

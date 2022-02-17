@@ -45,6 +45,18 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+
+  animation: slideInputY 1s;
+}
+
+/* Animations */
+@keyframes slideInputY {
+  from {
+    transform: translateY(90px)
+  }
+  to {
+    transform: translateY(0px)
+  }
 }
 
 .link svg {
@@ -56,6 +68,8 @@
   background: transparent;
 }
 
+
+/* Media Queries */ 
 @media(max-width: 715px) {
   .links-container {
     width: 90%;
