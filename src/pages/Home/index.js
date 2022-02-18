@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './home.css'
+import { api } from '../../services/api'
 import { FiLink } from 'react-icons/fi'
 import { Header } from '../../components/Header'
 import { ModalItem } from '../../components/ModalItem'
@@ -7,9 +8,22 @@ import { ModalItem } from '../../components/ModalItem'
 export function Home(props) {
   const [link, setLink] = useState('')
   const [showModal, setShowModal] = useState(false)
+  const [data, setData] = useState({})
 
-  function handleShortLink() {
-    setShowModal(true)
+  async function handleShortLink() {
+    try {
+      const response = await api.post('/shorten', {
+        long_url: link
+      })
+
+      setData(response.data)
+      setShowModal(true)
+
+      setLink('')
+    } catch {
+      alert('Ops, parece que algo deu errado!')
+      setLink('')
+    }
   }
 
   return (
@@ -36,7 +50,9 @@ export function Home(props) {
         </div>
       </div>
 
-      {showModal && <ModalItem />}
+      {showModal && (
+        <ModalItem closeModal={() => setShowModal(false)} content={data} />
+      )}
     </>
   )
 }

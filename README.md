@@ -1,4 +1,4 @@
-## Sobre o projeto 
+## Sobre o projeto
 
 Projeto MyLink desenvolvido durante a Semana ReactJS ministrada pelo SujeitoProgramador com objetivo de fixar e estruturar conhecimentos utilizando React.
 
@@ -7,6 +7,7 @@ Projeto MyLink desenvolvido durante a Semana ReactJS ministrada pelo SujeitoProg
 - React
 - React Router Dom
 - React Icons
+- Axios
 - Dotenv (WIP)
 
 ## Rodar projeto

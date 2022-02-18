@@ -35,9 +35,13 @@
   flex-direction: column;
 }
 
-.content-modal span {
+.content-modal p {
   margin: 14px 0;
   color: #A7A7A7;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:    ellipsis;
 }
 
 .content-modal button {
