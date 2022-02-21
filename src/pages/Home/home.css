@@ -107,7 +107,7 @@ input::placeholder {
 /* Media Queries */ 
 @media (max-width: 1500px) {
   .container-home {
-    margin-top: 30px;
+    margin-top: 200px;
   }
 
   .logo img {
@@ -130,7 +130,7 @@ input::placeholder {
 
 @media (max-width: 615px) {
   .container-home {
-    margin-top: 30px;
+    margin-top: 200px;
   }
 
   .logo img {
