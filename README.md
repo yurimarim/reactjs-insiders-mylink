@@ -19,14 +19,14 @@ Projeto MyLink desenvolvido durante a Semana ReactJS ministrada pelo SujeitoProg
 - React Router Dom
 - React Icons
 - Axios
-- Dotenv (WIP)
+- Dotenv
 
 ## Rodar Projeto
 
 ### `Clone do Projeto`
 
 Realize o clone do projeto utilizando:
-git@github.com:yurimarim/reactjs-insiders-imc.git
+`git@github.com:yurimarim/reactjs-insiders-imc.git`
 
 ### `Instalar dependências`
 
