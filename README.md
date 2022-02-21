@@ -1,3 +1,14 @@
+<p align="center">
+   <img src="./.github/mylinks-logo.png" alt="mylinks" width="300"/>
+</p>
+
+<p align="center">
+  <a href="#sobre">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rodar-projeto">Rodar projeto</a>
+  <a href="#licença-e-autor">Licença e Autor</a>
+</p>
+
 ## Sobre o projeto
 
 Projeto MyLink desenvolvido durante a Semana ReactJS ministrada pelo SujeitoProgramador com objetivo de fixar e estruturar conhecimentos utilizando React.
