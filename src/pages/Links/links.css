@@ -49,6 +49,12 @@
   animation: slideInputY 1s;
 }
 
+.empty-text {
+  width: 100%;
+  text-align: center;
+  margin-top: 28px;
+}
+
 /* Animations */
 @keyframes slideInputY {
   from {
