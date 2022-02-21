@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './home.css'
 import { api } from '../../services/api'
+import { saveLink } from '../../services/storeLinks'
 import { FiLink } from 'react-icons/fi'
 import { Header } from '../../components/Header'
 import { ModalItem } from '../../components/ModalItem'
@@ -19,6 +20,7 @@ export function Home(props) {
       setData(response.data)
       setShowModal(true)
 
+      saveLink('@encurtaLink', response.data)
       setLink('')
     } catch {
       alert('Ops, parece que algo deu errado!')
