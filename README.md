@@ -9,7 +9,7 @@
   <a href="#licença-e-autor">Licença e Autor</a>
 </p>
 
-## Sobre o projeto
+## Sobre o Projeto
 
 Projeto MyLink desenvolvido durante a Semana ReactJS ministrada pelo SujeitoProgramador com objetivo de fixar e estruturar conhecimentos utilizando React.
 
@@ -21,7 +21,7 @@ Projeto MyLink desenvolvido durante a Semana ReactJS ministrada pelo SujeitoProg
 - Axios
 - Dotenv (WIP)
 
-## Rodar projeto
+## Rodar Projeto
 
 ### `Clone do Projeto`
 
