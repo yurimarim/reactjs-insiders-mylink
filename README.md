@@ -15,11 +15,11 @@ Projeto MyLink desenvolvido durante a Semana ReactJS ministrada pelo SujeitoProg
 
 ## Tecnologias Utilizadas
 
-- React
-- React Router Dom
-- React Icons
-- Axios
-- Dotenv
+-   [ ] React
+-   [ ] React Router Dom
+-   [ ] React Icons
+-   [ ] Axios
+-   [ ] Dotenv
 
 ## Rodar Projeto
 
