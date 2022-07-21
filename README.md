@@ -13,6 +13,10 @@
 
 Projeto MyLink desenvolvido durante a Semana ReactJS ministrada pelo SujeitoProgramador com objetivo de fixar e estruturar conhecimentos utilizando React.
 
+## Teste o projeto:
+
+-   [ ] Link : https://reactjs-insiders-mylink.vercel.app/
+
 ## Tecnologias Utilizadas
 
 -   [ ] React
